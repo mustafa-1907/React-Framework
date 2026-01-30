@@ -1,0 +1,29 @@
+.form-control{
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #1ABC9C;
+    outline: 0;
+    box-shadow: none;
+}
+
+.custom-label {
+    color: #1abc9c;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(100%); 
+    opacity: 0;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.custom-label.visible {
+    transform: translateY(0); 
+    opacity: 1;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #1abc9c !important;
+}

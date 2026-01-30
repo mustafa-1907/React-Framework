@@ -1,0 +1,14 @@
+.bg-custom {
+    background-color: #2C3E50;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #1ABC9C;
+    color: white;
+}
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}
+.nav-link {
+    color: #ffff;
+}

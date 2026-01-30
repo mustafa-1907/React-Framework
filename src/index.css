@@ -1,0 +1,37 @@
+.bg-custom {
+    background-color: #2C3E50;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #1ABC9C;
+    color: white;
+}
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}
+.nav-link {
+    color: #ffff;
+}
+.bg-main{
+    background-color: #1ABC9C;
+}
+.star::after{
+    content: '';
+    background-color: #fff;
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(0,-50%);
+}
+.star::before{
+    content: '';
+    background-color: #fff;
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translate(0,-50%);
+}
